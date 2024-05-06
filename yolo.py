@@ -2,7 +2,7 @@ import supergradients as sg
 import cv2
 
 #Retrieve the model
-model = sg.models.get("yolo_nas_l", pretrained_weights="coco");
+model = sg.models.get("yolo_nas_l", pretrained_weights="coco")
 # Read video
 cap = cv2.VideoCapture("in.avi")
 
